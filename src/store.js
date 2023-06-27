@@ -1,7 +1,7 @@
 import { writable } from "svelte/store";
 
 
-const path = "blob/master/src/assets/Images/";
+const path = "src/assets/";
 
 
 export const users = writable([
