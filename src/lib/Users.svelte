@@ -31,7 +31,7 @@
       {
       id:$users.length +1,
       ...detail,
-      image: "src/assets/Images/man.png"
+      image: "blob/master/src/assets/Images/man.png"
       }, 
       ...$users
     ];

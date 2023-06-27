@@ -1,46 +1,48 @@
 import { writable } from "svelte/store";
 
 
+const path = "blob/master/src/assets/Images/";
+
 
 export const users = writable([
     {
         id: 1,
-        image : "src/assets/Images/child.png",
+        image : path + "child.png",
         name:"Tarak",
         email:"tarakmehta@gmail.com",
         active : true
     },
     {
         id:2,
-        image :"src/assets/Images/lady.png",
+        image : path + "lady.png",
         name:" Babita",
         email:"babita00@gmail.com",
         active : false     
     },
     {
         id:3,
-        image :"src/assets/Images/man.png",
+        image : path+ "man.png",
         name:"Jethalal",
         email:"gadjethalal@gmail.com",
         active : false
     },
     {
         id:4,
-        image :"src/assets/Images/programmer.png",
+        image : path + "programmer.png",
         name:"Bhide",
         email:"atbhide@gmail.com",
         active : false
     },
     {
         id:5,
-        image :"src/assets/Images/woman.png",
+        image : path + "woman.png",
         name:"Daya",
         email:"dayaaa@gmail.com",
         active : true
     },
     {
         id:6,
-        image :"src/assets/Images/emp.png",
+        image : path + "emp.png",
         name:"Iyer",
         email:"iyer6@gmail.com",
         active : true
