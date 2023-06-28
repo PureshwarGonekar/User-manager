@@ -46,6 +46,17 @@
 
         </div>
     </div>
+    <div class="py-1 px-2 my-4 flex justify-between">
+        <label for="gender" class="w-10">Gender:</label>
+        <div class="flex">
+            <label for="true">Male</label>
+            <input bind:group={newUser.image} type="radio" value="src/assets/man.png" name="gender" class="px-2 py-1 mx-5 rounded border mx-5">
+
+            <label for="false">Female</label>
+            <input bind:group={newUser.image} type="radio" value="src/assets/woman.png" name="gender" class="px-2 py-1 mx-5 rounded border mx-5">
+
+        </div>
+    </div>
 
     <button 
         type="submit" 

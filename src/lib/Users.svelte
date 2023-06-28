@@ -26,12 +26,10 @@
 
 
   const add = ({detail}) =>{
-    // console.log(detail);
     $users = [
       {
       id:$users.length +1,
       ...detail,
-      image: "blob/master/src/assets/Images/man.png"
       }, 
       ...$users
     ];
